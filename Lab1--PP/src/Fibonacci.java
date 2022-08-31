@@ -5,10 +5,10 @@ public class Fibonacci {
         long func1;
         long func2;
         if (m < k) {
-            System.out.println("m can't be lover then k");
+            System.out.println("m can't be lower then k");
             return false;
         }
-        func1 = fibo(m) * fibo((n + k)) - fibo(k) * fibo(n + m);
+        func1 = fibo(m) * fibo(n + k) - fibo(k) * fibo(n + m);
         func2 = (long) Math.pow(-1, k)* fibo((m - k)) * fibo(n);
         System.out.println("Fm*F(n+k)-Fk*F(n+m) = " + func1);
         System.out.println("(-1)^k*F(m-k)*Fn = " + func2);
