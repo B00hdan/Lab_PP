@@ -10,7 +10,8 @@ public class Main {
         System.out.print("Enter n, m, k: ");
         int N = buffer.nextInt();
         int M = buffer.nextInt();
-        int K = buffer.nextInt(); buffer.nextLine();
+        int K = buffer.nextInt();
+        buffer.nextLine();
 
         System.out.println("Result for formula: "+Data.chek(N, M, K));
         buffer.close();
