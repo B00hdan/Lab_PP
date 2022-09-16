@@ -26,22 +26,12 @@ public class Game {
             System.out.print("Choose option:");
 
             switch (buff.nextInt()) {
-                case 1:
-                    battle();
-                    break;
-                case 2:
-                    createDroid();
-                    break;
-                case 3:
-                    getAllDroids();
-                    break;
-                case 4:
-                    getInfoAboutTypes();
-                    break;
-                case 5:
-                    exit = true;
-                    break;
-                default:System.out.println("This option does`t exist, try again");
+                case 1 -> battle();
+                case 2 -> createDroid();
+                case 3 -> getAllDroids();
+                case 4 -> getInfoAboutTypes();
+                case 5 -> exit = true;
+                default -> System.out.println("This option does`t exist, try again");
             }
         }
 
@@ -75,16 +65,23 @@ public class Game {
         while (true) {
             System.out.print("Choose type:");
             switch (buff.nextInt()) {
-                case 1: droids.add(new TinyDroid(newName));
+                case 1 -> {
+                    droids.add(new TinyDroid(newName));
                     return;
-                case 2: droids.add(new HealerDroid(newName));
+                }
+                case 2 -> {
+                    droids.add(new HealerDroid(newName));
                     return;
-                case 3: droids.add(new MassiveDroid(newName));
+                }
+                case 3 -> {
+                    droids.add(new MassiveDroid(newName));
                     return;
-                case 4: droids.add(new ShockerDroid(newName));
+                }
+                case 4 -> {
+                    droids.add(new ShockerDroid(newName));
                     return;
-                default:
-                    System.out.println("This option does`t exist, try again");
+                }
+                default -> System.out.println("This option does`t exist, try again");
             }
         }
     }

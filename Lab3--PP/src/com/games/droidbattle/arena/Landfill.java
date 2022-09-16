@@ -9,7 +9,7 @@ public class Landfill extends City {
     @Override
     public List<BaseDroid> setArena(List<BaseDroid> list){
         for (BaseDroid droid : list){
-            droid.setChanceShot(droid.getChanceShot() - 10);
+            droid.setHitChance(droid.getHitChance() - 10);
         }
         return list;
     }

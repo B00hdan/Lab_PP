@@ -1,0 +1,465 @@
+
+Round #1
+ID-3B heals for 17
+BT-D6 get hit with 0 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 85;  Name:ID-3B Power = 127
+2)Name:BT-D6 Power = 150;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #2
+BT-D6 get hit with 4 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 85;  Name:ID-3B Power = 127
+2)Name:BT-D6 Power = 146;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #3
+ID-3B get hit with 10 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 85;  Name:ID-3B Power = 117
+2)Name:BT-D6 Power = 146;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #4
+DD-6 have been stunned for 2 turns
+DD-6 get hit with 13 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 117
+2)Name:BT-D6 Power = 146;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #5
+BT-D6 get hit with 9 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 117
+2)Name:BT-D6 Power = 137;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #6
+ID-3B get hit with 5 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 112
+2)Name:BT-D6 Power = 137;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #7
+DD-6 is stunned for 2 turns
+ID-3B get hit with 0 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 112
+2)Name:BT-D6 Power = 137;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #8
+ID-3B get hit with 35 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 137;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #9
+BT-D6 get hit with 10 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 72;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 127;  Name:Q9-2B Power = 100
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #10
+Q9-2B heals for 1
+DD-6 get hit with 10 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 62;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 127;  Name:Q9-2B Power = 101
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #11
+Q9-2B get hit with 26 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 62;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 127;  Name:Q9-2B Power = 75
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #12
+Q9-2B heals for 8
+DD-6 get hit with 14 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 48;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 127;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #13
+BT-D6 get hit with 18 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 48;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 109;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #14
+DD-6 is stunned for 1 turns
+Q9-2B get hit with 0 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 48;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 109;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #15
+DD-6 get hit with 22 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 77
+2)Name:BT-D6 Power = 109;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #16
+ID-3B get hit with 3 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 74
+2)Name:BT-D6 Power = 109;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #17
+ID-3B heals for 0
+BT-D6 get hit with 6 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 74
+2)Name:BT-D6 Power = 103;  Name:Q9-2B Power = 83
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #18
+Q9-2B get hit with 41 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 74
+2)Name:BT-D6 Power = 103;  Name:Q9-2B Power = 42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #19
+BT-D6 get hit with 13 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 74
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #20
+ID-3B get fast critical hit with 25 damage
+ID-3B get hit with 7 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 42
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #21
+ID-3B get hit with 8 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 34
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #22
+ID-3B get fast critical hit with 19 damage
+ID-3B get hit with 3 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 42
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #23
+Q9-2B get hit with 37 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #24
+Q9-2B get fast critical hit with 1 damage
+Q9-2B get hit with 7 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #25
+Q9-2B get hit with 9 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 90;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #26
+BT-D6 have been stunned for 2 turns
+BT-D6 get hit with 23 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 67;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #27
+BT-D6 get hit with 15 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 52;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #28
+BT-D6 have been stunned for 2 turns
+BT-D6 get hit with 4 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 48;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #29
+BT-D6 is stunned for 2 turns
+Q9-2B get hit with 0 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 48;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #30
+BT-D6 get hit with 12 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #31
+BT-D6 is stunned for 1 turns
+Q9-2B get hit with 0 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 26;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #32
+DD-6 have been stunned for 2 turns
+DD-6 get hit with 3 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #33
+DD-6 is stunned for 2 turns
+Q9-2B get hit with 0 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #34
+Q9-2B get hit with 10 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #35
+Q9-2B get hit with 3 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 12
+2)Name:BT-D6 Power = 36;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #36
+ID-3B heals for 15
+BT-D6 get hit with 8 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 27
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #37
+Q9-2B get hit with 6 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 27
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #38
+ID-3B get hit with 3 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #39
+DD-6 is stunned for 1 turns
+Q9-2B get hit with 0 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 23;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #40
+Q9-2B heals for 0
+DD-6 get hit with 5 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 18;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #41
+Q9-2B get hit with 17 damage from BT-D6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 18;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 28;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #42
+BT-D6 have been stunned for 2 turns
+BT-D6 get hit with 20 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 18;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 8;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #43
+BT-D6 get hit with 12 damage from Q9-2B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 18;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 0;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #44
+DD-6 get hit with 1 damage from ID-3B
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 17;  Name:ID-3B Power = 24
+2)Name:BT-D6 Power = 0;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #45
+ID-3B get fast critical hit with 14 damage
+ID-3B get hit with 9 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 17;  Name:ID-3B Power = 1
+2)Name:BT-D6 Power = 0;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #46
+ID-3B get hit with 7 damage from DD-6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:DD-6 Power = 17;  Name:ID-3B Power = 0
+2)Name:BT-D6 Power = 0;  Name:Q9-2B Power = 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The winner is Red team!
+
+Round #1
+уйу get fast critical hit with 16 damage
+уйу get hit with 7 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 62;  Name:уйу Power = 85
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #2
+уйу get hit with 8 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 54;  Name:уйу Power = 85
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #3
+уйу get fast critical hit with 5 damage
+уйу get hit with 8 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 41;  Name:уйу Power = 85
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #4
+уйу get hit with 5 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 41;  Name:уйу Power = 80
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #5
+уйу get hit with 6 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 41;  Name:уйу Power = 74
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #6
+уйу get hit with 10 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 41;  Name:уйу Power = 64
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #7
+уйу get hit with 6 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 41;  Name:уйу Power = 58
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #8
+уйу get hit with 12 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 29;  Name:уйу Power = 58
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #9
+уйу get fast critical hit with 22 damage
+уйу get hit with 0 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 29;  Name:уйу Power = 36
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Round #10
+уйу get fast critical hit with 19 damage
+уйу get hit with 13 damage from уйу
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Red team:                 Blue team:
+1)Name:уйу Power = 0;  Name:уйу Power = 36
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The winner is Blue team!

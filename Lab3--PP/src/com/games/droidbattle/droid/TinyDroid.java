@@ -3,7 +3,7 @@ package com.games.droidbattle.droid;
 public class TinyDroid extends BaseDroid {
     public TinyDroid(String name) {
         super(name,"Tiny");
-        this.chanceShot = 75;
+        this.hitChance = 75;
         this.health = 85;
         this.damage = 15;
     }

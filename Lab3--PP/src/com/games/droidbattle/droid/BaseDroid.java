@@ -7,7 +7,7 @@ abstract public class BaseDroid {
     protected final String type;
     protected int damage;
     protected int health;
-    protected int chanceShot;
+    protected int hitChance;
     protected int stun = 0;
 
     public BaseDroid(String name, String type) {
@@ -22,7 +22,7 @@ abstract public class BaseDroid {
     public int getHit(int damage) {
         Random random = new Random();
         int actualDamage = 0;
-        if (random.nextInt(chanceShot) <= chanceShot) {
+        if (random.nextInt(hitChance) <= hitChance) {
             actualDamage = random.nextInt(damage);
             this.health -= actualDamage;
             if (health < 0) {
@@ -56,11 +56,11 @@ abstract public class BaseDroid {
     public void addHealth(int health) {
         this.health += health;
     }
-    public void setChanceShot(int chanceShot) {
-        this.chanceShot = chanceShot;
+    public void setHitChance(int hitChance) {
+        this.hitChance = hitChance;
     }
-    public int getChanceShot() {
-        return chanceShot;
+    public int getHitChance() {
+        return hitChance;
     }
     abstract public BaseDroid copyDroid();
     public final boolean isStun() {

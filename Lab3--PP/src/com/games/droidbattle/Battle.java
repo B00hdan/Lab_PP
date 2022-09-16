@@ -17,8 +17,6 @@ import java.util.concurrent.TimeUnit;
 public class Battle {
     private final String table = new String(new char[36]).replace("\0", "~");
     Random random = new Random();
-    FileWriter fileStream;
-    BufferedWriter bufferedStream;
     PrintWriter printStream;
     private final List<BaseDroid> droids;
     private List<BaseDroid> redTeam;
@@ -34,9 +32,7 @@ public class Battle {
         this.numbInTeam = numbInTeam;
         redTeam = new ArrayList<>();
         blueTeam = new ArrayList<>();
-        fileStream = new FileWriter("temp1.txt", true);
-        bufferedStream = new BufferedWriter(fileStream);
-        printStream = new PrintWriter(bufferedStream);
+        printStream = new PrintWriter(new BufferedWriter(new FileWriter("temp.txt", true)));
     }
     public void startFight(int arena) throws InterruptedException, IOException {
         createTeams();
@@ -50,56 +46,56 @@ public class Battle {
         printWinner();
 
         printStream.close();
-        bufferedStream.close();
-        fileStream.close();
     }
     public void createTeams() {
-        Scanner buff = new Scanner(System.in);
         System.out.println(table);
         System.out.print("Who will be include to red team?: ");
-        addInList(redTeam,buff.nextInt());
+        addInList(redTeam);
         System.out.println(table);
         System.out.print("Who will be include to blue team?: ");
-        addInList(blueTeam,buff.nextInt());
+        addInList(blueTeam);
         System.out.println(table);
     }
-    private void addInList(List<BaseDroid> list, int numb){
+    private void addInList(List<BaseDroid> list){
+        Scanner buff = new Scanner(System.in);
+        int numb;
         for (int n = numbInTeam; n > 0; n--) {
+            numb = buff.nextInt();
             list.add(droids.get(numb - 1).copyDroid());
         }
     }
     private void chooseArena(int type){
-        City arena = new City();
-        switch(type){
-            case 2:
-                arena = new Factory();
-                break;
-            case 3:
-                arena = new Landfill();
-                break;
-        }
+        new City();
+        City arena = switch (type) {
+            case 2 -> new Factory();
+            case 3 -> new Landfill();
+            default -> new City();
+        };
         redTeam = arena.setArena(redTeam);
         blueTeam = arena.setArena(blueTeam);
     }
     final public void prepareRound() {
         currentRound++;
-        printConsoleFile("Round #" + currentRound);
+        printConsoleFile("\nRound #" + currentRound);
         initFighters();
     }
     private void initFighters() {
-        if (random.nextBoolean()) {
-            attacker = redTeam.get((int) (random.nextInt(numbInTeam)));
-            defender = blueTeam.get((int) (random.nextInt(numbInTeam)));
-            markTeamAttacker = 'r';
-        } else {
-            attacker = blueTeam.get((int) (random.nextInt(numbInTeam)));
-            defender = redTeam.get((int) (random.nextInt(numbInTeam)));
-            markTeamAttacker = 'b';
-        }
+        do {
+            if (random.nextBoolean()) {
+                attacker = redTeam.get(random.nextInt(numbInTeam));
+                defender = blueTeam.get(random.nextInt(numbInTeam));
+                markTeamAttacker = 'r';
+            } else {
+                attacker = blueTeam.get(random.nextInt(numbInTeam));
+                defender = redTeam.get(random.nextInt(numbInTeam));
+                markTeamAttacker = 'b';
+            }
+        }while ( !attacker.isAlive() && !defender.isAlive());
     }
     private int doFight() {
         if(attacker.isStun()){
-            printConsoleFile(attacker.getName() + " is stunned for " + attacker.getStun() + " turns");
+            printConsoleFile(attacker.getName() + " is stunned for " +
+                    attacker.getStun() + " turns");
             attacker.setStun(attacker.getStun() - 1);
             return 0;
         }
@@ -135,7 +131,8 @@ public class Battle {
         printStream.println(text);
     }
     private void printRoundInfo(int actualDamage) {
-        printConsoleFile(defender.getName() + " get hit with " + actualDamage + " damage");
+        printConsoleFile(defender.getName() + " get hit with " + actualDamage
+                + " damage from " + attacker.getName());
         printConsoleFile(table);
         printConsoleFile("Red team:                 Blue team:");
         for (int n = 0; n <numbInTeam; n++)

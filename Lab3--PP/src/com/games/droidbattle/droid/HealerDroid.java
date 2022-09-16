@@ -4,7 +4,7 @@ public class HealerDroid extends BaseDroid {
     private final int HealPower = 20;
     public HealerDroid(String name) {
         super(name,"Healer");
-        this.chanceShot = 80;
+        this.hitChance = 80;
         this.health = 110;
         this.damage = 20;
     }
