@@ -1,9 +1,13 @@
-package Track;
+package track;
 
-public class RockMusic {
+public class RockMusic extends MusicTrack {
     String genre;
-
     public RockMusic(){
         this.genre = "Rock";
+    }
+
+    @Override
+    public String getGenre() {
+        return genre;
     }
 }

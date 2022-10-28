@@ -1,70 +1,57 @@
-package Console;
+package console;
 
-import Console.DiskCommands.*;
-import Info.Disk;
+import console.diskCommands.*;
+import info.Disk;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.List;
+
 import java.util.Map;
 
 public class CollectionOfCommands {
-    private List<Map<String, ConsoleCommand>> levelsList = new ArrayList<>();
-    private Map<String, ConsoleCommand> firstLevel;
-    private Map<String, ConsoleCommand> secondLevel;
-    private Disk mainDisk = new Disk();
+    private final Map<String, ConsoleCommand> newList;
+    private final Disk mainDisk = new Disk();
 
     public CollectionOfCommands(){
-        firstLevel =  new LinkedHashMap<>();
-        firstLevel.put("connect", new ConnectDiskCommand(mainDisk));
-        firstLevel.put("disconnect", new DisconnectDiskCommand(mainDisk));
-        firstLevel.put("exit", new ExitCommand(mainDisk));
-        secondLevel = new LinkedHashMap<>();
-        secondLevel.put("add", new AddCommand(mainDisk));
-        secondLevel.put("delete", new DeleteCommand(mainDisk));
-        secondLevel.put("edit", new EditCommand(mainDisk));
-        secondLevel.put("sortBy", new SortByCommand(mainDisk));
-        levelsList.add(firstLevel);
-        levelsList.add(secondLevel);
+        newList = new LinkedHashMap<>();
+        newList.put("connect", new ConnectDiskCommand(mainDisk));
+        newList.put("disconnect", new DisconnectDiskCommand(mainDisk));
+        newList.put("exit", new ExitCommand(mainDisk));
+        newList.put("add", new AddCommand(mainDisk));
+        newList.put("delete", new DeleteCommand(mainDisk));
+        newList.put("edit", new EditCommand(mainDisk));
+        newList.put("sort", new SortByCommand(mainDisk));
+        newList.put("find", new FindByCommand(mainDisk));
+        newList.put("calculateDuration", new CalculateDurationCommand(mainDisk));
     }
-
     public void helpCommand(String[] params) {
         if (params.length > 1) {
             if (params.length < 3) {
-                for (Map<String, ConsoleCommand> level : levelsList){
-                    if (level.get(params[1]) != null) {
-                        level.get(params[1]).getInfo();
-                        return;
-                    }
+                if (newList.get(params[1]) != null) {
+                    newList.get(params[1]).getInfo();
+                    return;
                 }
             }
             System.out.println("This command doesn't exist");
         } else {
-            for (Map<String, ConsoleCommand> level : levelsList) {
-                for (Map.Entry<String, ConsoleCommand> entry : level.entrySet()) {
-                    entry.getValue().getInfo();
-                }
-            }
+            for (Map.Entry<String, ConsoleCommand> entry : newList.entrySet())
+                entry.getValue().getInfo();
         }
     }
-
-    void undoCommand(String[] params, String[] lastCommand){
+    void undoCommand(String[] params, String[] lastCommand) {
         if (params.length > 1) {
             System.out.println("This command doesn't exist");
-        } else  {
-            for (Map<String, ConsoleCommand> level : levelsList) {
-                if (level.get(lastCommand[0]) != null)
-                    level.get(lastCommand[0]).undo(lastCommand);
-            }
+        } else if (lastCommand != null && lastCommand[0] != null) {
+            newList.get(lastCommand[0]).undo(lastCommand);
+            Arrays.fill(lastCommand, null);
         }
     }
 
     public Disk getMainDisk(){
         return mainDisk;
     }
-
-    public List<Map<String, ConsoleCommand>> getLevelsList() {
-        return levelsList;
+    public Map<String, ConsoleCommand> getList() {
+        return newList;
     }
 
 }

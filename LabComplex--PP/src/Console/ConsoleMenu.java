@@ -1,8 +1,8 @@
-package Console;
+package console;
 
 public class ConsoleMenu {
     CollectionOfCommands data;
-    String[] lastCommand = {" "};
+    String[] lastCommand = null;
     public ConsoleMenu() {
         this.data = new CollectionOfCommands();
     }
@@ -13,18 +13,14 @@ public class ConsoleMenu {
             data.helpCommand(commands);
         }else if (commands[0].equals("undo")){
             data.undoCommand(commands, lastCommand);
-        } else if(data.getLevelsList().get(0).get(commands[0]) != null){
-            if (data.getLevelsList().get(0).get(commands[0]).execute(commands))
+        } else if(data.getList().get(commands[0]) != null){
+            if (data.getList().get(commands[0]).execute(commands))
                 lastCommand = commands;
-        } else if(data.getLevelsList().get(1).get(commands[0]) != null && data.getMainDisk().connectionStatus()){
-            if (data.getLevelsList().get(1).get(commands[0]).execute(commands))
-                lastCommand = commands;
-        } else System.out.println("This command doesn't exist, or disk not connected");
+        } else System.out.println("This command doesn't exist");
     }
     public String diskLocation(){
         if (data.getMainDisk().connectionStatus()){
             return data.getMainDisk().diskLocation() + "\\ ";
-        }
-        return " ";
+        } return " ";
     }
 }

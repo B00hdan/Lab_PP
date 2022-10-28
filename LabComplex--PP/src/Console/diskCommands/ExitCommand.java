@@ -1,15 +1,18 @@
-package Console;
+package console.diskCommands;
 
-import Info.Disk;
+import console.ConsoleCommand;
+import info.Disk;
 
-public class ExitCommand extends ConsoleCommand{
-
+public class ExitCommand extends ConsoleCommand {
     public ExitCommand(Disk receiver) {
         super(receiver);
     }
 
     @Override
     public boolean execute(String[] params) {
+        if(connectionCheck()){
+            new DisconnectDiskCommand(receiver).execute(params);
+        }
         System.out.println("Logging out...");
         System.exit(0);
         return false;

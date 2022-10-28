@@ -1,4 +1,4 @@
-import Console.ConsoleMenu;
+import console.ConsoleMenu;
 
 import java.util.Scanner;
 
