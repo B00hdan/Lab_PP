@@ -4,7 +4,7 @@ import console.ConsoleCommand;
 import info.Disk;
 
 public class EditCommand extends ConsoleCommand {
-
+    /*User can not change name, genre*/
     public EditCommand(Disk receiver) {
         super(receiver);
     }
