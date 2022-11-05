@@ -196,7 +196,6 @@ public class SetOfTracks {
         System.out.println("Duration of all tracks together: " + timeInHours
                 + ":" + timeInMinutes + ":" + timeInSeconds);
     }
-
     private boolean setIsEmpty(){
         if (trackList.isEmpty()) {
             System.out.println("Disk is empty");

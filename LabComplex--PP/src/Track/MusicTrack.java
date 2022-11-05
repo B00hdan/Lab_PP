@@ -73,18 +73,8 @@ public class MusicTrack extends SoundTrack {
     }
     @Override
     public String toString() {
-        String line = "Name=" + name + " Duration=" + duration;
-        if(!Objects.equals(author, ""))
-            line = line.concat(" Author=" + author);
-        if(!Objects.equals(dateOfWriting, ""))
-            line = line.concat(" DateOfWriting=" + dateOfWriting);
-        if(!Objects.equals(dateOfPublication, "")) {
-            line = line.concat(" DateOfPublication=" + dateOfPublication);
-        }
-        if(!Objects.equals(albumName, "")) {
-            line = line.concat(" Album=" + albumName);
-        }
-        line = line.concat(" Genre=" + getGenre());
-        return line;
+        return "Name=" + name + " Duration=" + duration
+                + " Author=" + author + " DateOfWriting=" + dateOfWriting
+                + " DateOfPublication=" + dateOfPublication + " Album=" + albumName + " Genre=" + getGenre();
     }
 }

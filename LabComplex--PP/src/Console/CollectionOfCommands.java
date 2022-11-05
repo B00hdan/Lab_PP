@@ -1,6 +1,6 @@
 package console;
 
-import console.diskCommands.*;
+import console.diskcommand.*;
 import info.Disk;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package console.diskCommands;
+package console.diskcommand;
 
 import console.ConsoleCommand;
 import info.Disk;
