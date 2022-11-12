@@ -1,0 +1,5 @@
+name=Love_Me_Do genre=Pop duration=00:02:20 author=The_Beatles dateOfPublication=1962-10-05
+name=From_Me_to_You genre=Rock duration=00:01:56 author=The_Beatles dateOfPublication=1963-04-11
+name=She_Loves_You genre=Rock duration=00:02:18 author=The_Beatles dateOfPublication=1963-08-23
+name=I_Want_to_Hold_Your_Hand duration=00:02:24 dateOfPublication=1963-11-29 genre=Pop author=The_Beatles
+name=Can't_Buy_Me_Love dateOfPublication=1964-03-16 author=The_Beatles duration=00:02:11 genre=Rock
