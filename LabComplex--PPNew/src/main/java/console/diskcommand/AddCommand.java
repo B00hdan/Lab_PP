@@ -13,8 +13,10 @@ public class AddCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params){
-        if(!connectionCheck())
+        log.debug("Add command was executed");
+        if(!connectionCheck()){
             return false;
+        }
 
         if(params.length < 4) {
             System.out.println(wrongCommandMessage);
@@ -41,6 +43,7 @@ public class AddCommand extends ConsoleCommand {
         String[] onlyName = name.split("=");
         String[] newParams = {"delete", params[1], onlyName[1]};
         new DeleteCommand(receiver).execute(newParams);
+        log.debug("Add command was canceled");
     }
 
     @Override

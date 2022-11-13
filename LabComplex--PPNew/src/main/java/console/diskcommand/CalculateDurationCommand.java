@@ -9,6 +9,7 @@ public class CalculateDurationCommand extends ConsoleCommand {
     }
     @Override
     public boolean execute(String[] params) {
+        log.debug("CalculateDuration command was executed");
         if(!connectionCheck() || params.length > 1)
             return false;
         receiver.calculateDurationOfAllTracks();

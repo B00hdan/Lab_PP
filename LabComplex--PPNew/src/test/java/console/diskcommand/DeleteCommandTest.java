@@ -70,7 +70,7 @@ class DeleteCommandTest {
     @Test
     void testUndo() {
         deleteCommand.undo(new String[]{});
-        verify(mockDisk).restoreTrackLastOnDisk();
+        verify(mockDisk).restoreLastTrackOnDisk();
     }
 
     @Test

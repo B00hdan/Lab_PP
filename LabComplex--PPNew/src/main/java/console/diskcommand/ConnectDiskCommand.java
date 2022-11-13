@@ -9,6 +9,7 @@ public class ConnectDiskCommand extends ConsoleCommand {
     }
     @Override
     public boolean execute(String[] params) {
+        log.debug("ConnectDisk command was executed");
         if(receiver.connectionStatus()){
             new DisconnectDiskCommand(receiver).execute(params);
         }

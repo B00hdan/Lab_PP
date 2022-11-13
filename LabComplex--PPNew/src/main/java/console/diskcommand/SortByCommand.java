@@ -12,6 +12,7 @@ public class SortByCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("SortBy command was executed");
         if(!connectionCheck()) {
             return false;
         }

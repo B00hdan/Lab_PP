@@ -1,4 +1,5 @@
 package info;
+import org.apache.log4j.Logger;
 import track.*;
 
 import java.io.FileNotFoundException;
@@ -8,8 +9,11 @@ import java.io.File;
 import java.util.Objects;
 import java.util.Scanner;
 
+import static org.apache.log4j.Logger.getLogger;
+
 
 public class Disk {
+        private final Logger log = getLogger(Disk.class);
         private int size;
         private SetOfTracks set = null;
         private File folder;
@@ -28,6 +32,7 @@ public class Disk {
                 try{
                         pw = new PrintWriter(folder);
                 } catch (FileNotFoundException e) {
+                        log.error("Disk file not found");
                         throw new RuntimeException(e);
                 }
         }
@@ -40,10 +45,13 @@ public class Disk {
                 return set != null;
         }
         public boolean addAlbumOnDisk(String[] params){
-                if (params.length != 4)
+                if (params.length != 4) {
+                        log.warn("New album has not been added to disc");
                         return false;
+                }
                 else if(size <= 0){
                         System.out.println("There is no space on disk");
+                        log.warn("New album has not been added to disc");
                         return false;
                 }
                 Album newAlbum = new Album(params[2], params[3]);
@@ -52,24 +60,34 @@ public class Disk {
                 if(size < 0) {
                         deleteAlbumFromDisk(params[2]);
                         System.out.println("There is no space on disk");
+                        log.warn("New album has not been added to disc");
                         return false;
-                } else return true;
+                } else {
+                        log.info("New album has been added to disc");
+                        return true;
+                }
         }
         public boolean addNewTrackOnDisk(String[] params){
                 if(size <= 0){
                         System.out.println("There is no space on disk");
+                        log.warn("New track has not been added to disc");
                         return false;
                 }
                 MusicTrack track = set.addNewTrack(params);
                 if(track != null) {
                         size--;
+                        log.info("New track has been added to disc");
                         return true;
-                } else return false;
+                } else {
+                        log.warn("New track has not been added to disc");
+                        return false;
+                }
         }
         public boolean checkIfFileAlreadyExist() {
                 try {
                         return folder.createNewFile();
                 } catch (IOException e) {
+                        log.error("Disk file not exist");
                         throw new RuntimeException(e);
                 }
         }
@@ -80,24 +98,32 @@ public class Disk {
                                 addNewTrackOnDisk(buff.nextLine().split(" "));
                         }
                 } catch (FileNotFoundException e) {
+                        log.error("Disk file not found");
                         throw new RuntimeException(e);
                 }
         }
         public boolean deleteTrackFromDisk(String name){
                 if(set.deleteTrackByName(name)){
                         size++;
+                        log.info("Track has been removed from disc");
                         return true;
                 } else{
                         System.out.println("Track doesn't exist on disk");
+                        log.warn("Track has not been removed from disc");
                         return false;
                 }
         }
         public boolean deleteAlbumFromDisk(String name){
                 int pastSize = size;
                 size += set.deleteTracksByAlbumName(name);
-                if(pastSize == size)
+                if(pastSize == size) {
                         System.out.println("Album doesn't exist on disk");
-                return pastSize != size;
+                        log.warn("Album has not been removed from disc");
+                        return false;
+                } else {
+                        log.info("Album has been removed from disc");
+                        return true;
+                }
         }
         public void writeToFile(){
                 for(MusicTrack track : set.getTrackList()){
@@ -117,7 +143,7 @@ public class Disk {
                 }
                 pw.close();
         }
-        public void restoreTrackLastOnDisk(){
+        public void restoreLastTrackOnDisk(){
                 set.restoreLastTracks();
         }
         public boolean changeTrackParamsOnDisk(String[] params){

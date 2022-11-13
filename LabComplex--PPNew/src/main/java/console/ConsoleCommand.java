@@ -1,10 +1,14 @@
 package console;
 
 import info.Disk;
+import org.apache.log4j.Logger;
+
+import static org.apache.log4j.LogManager.getLogger;
 
 public abstract class ConsoleCommand {
     protected Disk receiver;
     protected final String wrongCommandMessage = "This command cannot be executed";
+    protected final Logger log = getLogger(ConsoleCommand.class);
 
     public ConsoleCommand(Disk receiver){
         this.receiver = receiver;

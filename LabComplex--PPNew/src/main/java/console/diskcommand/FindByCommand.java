@@ -11,6 +11,7 @@ public class FindByCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("FindBy command was executed");
         if(!connectionCheck()) {
             return false;
         }

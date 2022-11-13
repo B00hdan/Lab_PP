@@ -10,11 +10,13 @@ public class DisconnectDiskCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("DisconnectDisk command was executed");
         if(!connectionCheck())
             return false;
         if (params.length > 1)
             return false;
         receiver.disconnectDisk();
+        log.info("Disk saved successfully");
         return false;
     }
     @Override

@@ -11,6 +11,7 @@ public class DeleteCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("Delete command was executed");
         if(!receiver.connectionStatus())
             return false;
 
@@ -30,7 +31,8 @@ public class DeleteCommand extends ConsoleCommand {
 
     @Override
     public void undo(String[] params) {
-        receiver.restoreTrackLastOnDisk();
+        receiver.restoreLastTrackOnDisk();
+        log.debug("Delete command was canceled");
     }
 
     @Override

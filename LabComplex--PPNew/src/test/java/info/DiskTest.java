@@ -171,7 +171,7 @@ class DiskTest {
     @Test
     void testRestoreTrackLastOnDisk() {
         doNothing().when(mockSet).restoreLastTracks();
-        spyDisk.restoreTrackLastOnDisk();
+        spyDisk.restoreLastTrackOnDisk();
         verify(mockSet, times(1)).restoreLastTracks();
     }
 

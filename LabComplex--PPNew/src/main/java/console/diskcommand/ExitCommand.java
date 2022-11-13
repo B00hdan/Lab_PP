@@ -10,6 +10,7 @@ public class ExitCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("Exit command was executed");
         if(connectionCheck()){
             new DisconnectDiskCommand(receiver).execute(params);
         }

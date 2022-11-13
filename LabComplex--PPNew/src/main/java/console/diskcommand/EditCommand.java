@@ -11,6 +11,7 @@ public class EditCommand extends ConsoleCommand {
 
     @Override
     public boolean execute(String[] params) {
+        log.debug("Edit command was executed");
         if(!connectionCheck())
             return false;
         if(params.length < 3 || !params[1].contains("name=")) {
@@ -25,6 +26,7 @@ public class EditCommand extends ConsoleCommand {
 
     public void undo(String[] params) {
         receiver.returnParamsForLastModified();
+        log.debug("Edit command was canceled");
     }
 
     @Override
