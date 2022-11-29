@@ -5,8 +5,6 @@ import java.util.*;
 
 import com.termprojectpp.track.*;
 import javafx.scene.control.Label;
-
-
 public class Disk {
         private static final Disk instance = new Disk();
         private String diskTableName;

@@ -5,7 +5,6 @@ import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 public class SetOfTracks {
     private final List<MusicTrack> trackList;

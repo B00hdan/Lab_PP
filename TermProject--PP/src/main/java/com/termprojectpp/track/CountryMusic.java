@@ -5,8 +5,4 @@ public class CountryMusic extends MusicTrack {
         this.genre = "Country";
     }
 
-    @Override
-    public String getGenre() {
-        return genre;
-    }
 }

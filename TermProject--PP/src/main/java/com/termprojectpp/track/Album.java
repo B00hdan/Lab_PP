@@ -9,7 +9,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.*;
 
-
 public class Album {
     private final SetOfTracks set;
     private final String name;
